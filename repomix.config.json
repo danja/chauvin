@@ -1,7 +1,7 @@
 {
   "output": {
     "filePath": "chauvin-repomix.md",
-    "style": "markdown",
+    "style": "plain",
     "removeComments": false,
     "removeEmptyLines": false,
     "topFilesLength": 5,
@@ -10,6 +10,7 @@
   },
   "include": [
     "**/*.md",
+    "**/*.mdx",
     "**/*.ttl",
     "**/*.json",
     "**/*.ts"
@@ -17,7 +18,10 @@
   "ignore": {
     "useGitignore": true,
     "useDefaultPatterns": true,
-    "customPatterns": []
+    "customPatterns": [
+      ".git",
+      "docs/mcp-specs/docs"
+    ]
   },
   "security": {
     "enableSecurityCheck": true
