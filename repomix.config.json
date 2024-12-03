@@ -1,6 +1,6 @@
 {
   "output": {
-    "filePath": "chauvin-repomix.md",
+    "filePath": "chauvin-repomix.txt",
     "style": "plain",
     "removeComments": false,
     "removeEmptyLines": false,
@@ -20,7 +20,9 @@
     "useDefaultPatterns": true,
     "customPatterns": [
       ".git",
-      "docs/mcp-specs/docs"
+      "docs/mcp-specs/docs",
+      "**/*repomix*",
+      "**/*repopack*"
     ]
   },
   "security": {
